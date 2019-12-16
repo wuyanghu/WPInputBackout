@@ -7,7 +7,11 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Usage
+1. 导入#import "UITextView+WPBackout.h"
+2. [self.textView wpAddBackoutBar];
+3. 也可以使用自定义按钮，这样需要响应- (void)wpTextViewBackoutAction事件。
 
 ## Requirements
 
@@ -22,7 +26,7 @@ pod 'WPInputBackout'
 
 ## Author
 
-823105162@qq.com, 823105162@qq.com
+823105162@qq.com
 
 ## License
 
