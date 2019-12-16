@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UITextView (WPBackout)
 @property (nonatomic,strong) WPTextViewBackoutManager * wpBackoutManager;
-- (void)wpAddBackoutBar;
+- (void)wpAddBackoutToolBar;
 - (void)wpTextViewBackoutAction;//自定义撤销按钮可调用此事件
 @end
 

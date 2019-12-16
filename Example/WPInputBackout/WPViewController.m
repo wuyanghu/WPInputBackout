@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.textView wpAddBackoutBar];
+    [self.textView wpAddBackoutToolBar];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
