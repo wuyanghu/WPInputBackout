@@ -1,0 +1,6 @@
+framework module Pods_WPInputBackout_Example {
+  umbrella header "Pods-WPInputBackout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

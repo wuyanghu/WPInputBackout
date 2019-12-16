@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WPInputBackout_Example' do
+  pod 'WPInputBackout', :path => '../'
+
+  target 'WPInputBackout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

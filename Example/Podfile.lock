@@ -1,0 +1,16 @@
+PODS:
+  - WPInputBackout (0.1.0)
+
+DEPENDENCIES:
+  - WPInputBackout (from `../`)
+
+EXTERNAL SOURCES:
+  WPInputBackout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WPInputBackout: 90eaf409aca980a2bebe8b83d4eb651dac001720
+
+PODFILE CHECKSUM: 7820edb5e6debaea1c43d90c2a55784cfd6ca178
+
+COCOAPODS: 1.7.4

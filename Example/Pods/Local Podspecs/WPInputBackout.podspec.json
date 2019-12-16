@@ -1,0 +1,22 @@
+{
+  "name": "WPInputBackout",
+  "version": "0.1.0",
+  "summary": "iOS输入框撤销功能",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/823105162@qq.com/WPInputBackout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "823105162@qq.com": "823105162@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/823105162@qq.com/WPInputBackout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WPInputBackout/Classes/**/*"
+}
