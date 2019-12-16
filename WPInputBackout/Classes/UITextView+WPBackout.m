@@ -22,14 +22,18 @@
     if (!caretabker) {
         caretabker = [WPTextViewBackoutManager new];
         [self setWpBackoutManager:caretabker];
+        
+        [self wpAddNotification];
     }
     return caretabker;
 }
 
-- (void)wpAddBackoutBar{
-    
+- (void)wpAddNotification{
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewBackoutBeginEditing:) name:UITextViewTextDidBeginEditingNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewBackoutDidChange:) name:UITextViewTextDidChangeNotification object:nil];
+}
+
+- (void)wpAddBackoutToolBar{
     
     UIToolbar *toolBar = [UIToolbar new];
     [toolBar sizeToFit];
