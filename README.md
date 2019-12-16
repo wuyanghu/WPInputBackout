@@ -5,15 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/WPInputBackout.svg?style=flat)](https://cocoapods.org/pods/WPInputBackout)
 [![Platform](https://img.shields.io/cocoapods/p/WPInputBackout.svg?style=flat)](https://cocoapods.org/pods/WPInputBackout)
 
-## Example
-
-
 ## Usage
 1. 导入#import "UITextView+WPBackout.h"
 2. [self.textView wpAddBackoutBar];
 3. 也可以使用自定义按钮，这样需要响应- (void)wpTextViewBackoutAction事件。
 
 ## Requirements
+iOS 7以上
 
 ## Installation
 
