@@ -34,7 +34,8 @@
 }
 
 - (void)wpAddBackoutToolBar{
-    
+    [self wpBackoutManager];//确保初始化
+
     UIToolbar *toolBar = [UIToolbar new];
     [toolBar sizeToFit];
     
