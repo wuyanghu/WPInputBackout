@@ -1,5 +1,5 @@
 # WPInputBackout
-
+# 给输入框增加撤销功能，手机版的ctrl+z
 [![CI Status](https://img.shields.io/travis/823105162@qq.com/WPInputBackout.svg?style=flat)](https://travis-ci.org/823105162@qq.com/WPInputBackout)
 [![Version](https://img.shields.io/cocoapods/v/WPInputBackout.svg?style=flat)](https://cocoapods.org/pods/WPInputBackout)
 [![License](https://img.shields.io/cocoapods/l/WPInputBackout.svg?style=flat)](https://cocoapods.org/pods/WPInputBackout)
